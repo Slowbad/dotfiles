@@ -1,0 +1,8 @@
+[alias]
+	st = status
+	ci = commit
+	aa = add --all
+	cm = commit -m
+[user]
+	email = me@stevenmartin.io
+	name = Steven Martin
