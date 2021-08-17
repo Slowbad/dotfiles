@@ -1,3 +1,7 @@
+" colors
+packadd! dracula
+colorscheme dracula
+
 " Stolen from Gary Bernhardt
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
@@ -97,3 +101,7 @@ if !isdirectory("/tmp/.vim-undo-dir")
 endif
 set undodir=/tmp/.vim-undo-dir
 set undofile
+
+
+" Key maps
+imap jk <Esc>

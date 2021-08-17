@@ -6,8 +6,11 @@
 
 - link:
     ~/.bashrc:
+      force: true
     ~/.profile:
+      force: true
     ~/.vimrc: 
+    ~/.vim: 
     ~/.p10k.zsh:
     ~/.zshrc:
     ~/.zprofile:
