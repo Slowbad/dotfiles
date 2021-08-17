@@ -1,14 +1,13 @@
 - defaults:
     link:
       relink: true
+      force: true
 
 - clean: ['~']
 
 - link:
     ~/.bashrc:
-      force: true
     ~/.profile:
-      force: true
     ~/.vimrc: 
     ~/.vim: 
     ~/.p10k.zsh:
